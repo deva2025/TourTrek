@@ -30,7 +30,7 @@ Travel isn't just about reaching destinations,it's about collecting memories fro
 
 - The resort's location and images of that place.
 
- ![Screenshot (260)](https://github.com/deva2025/Tourtrek/assets/166497101/8637f2b7-f213-4bd9-b471-69666950cb79
+ ![Screenshot (260)](https://github.com/deva2025/Tourtrek/assets/166497101/8637f2b7-f213-4bd9-b471-69666950cb79)
 
 ![Screenshot (262)](https://github.com/deva2025/Tourtrek/assets/166497101/08d24907-0ca1-4faf-8190-2048c059448f)
 
