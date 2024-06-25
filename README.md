@@ -29,7 +29,16 @@ Travel isn't just about reaching destinations,it's about collecting memories fro
 - YOU CAN ADD MORE PLACES AS YOUR WISH.
 
 - The resort's location and images of that place.
+- 
+ ![Screenshot (260)](https://github.com/deva2025/Tourtrek/assets/166497101/8637f2b7-f213-4bd9-b471-69666950cb79
+
+![Screenshot (262)](https://github.com/deva2025/Tourtrek/assets/166497101/08d24907-0ca1-4faf-8190-2048c059448f)
+
 - The restaurant's location and images of that place.
+
+ ![Screenshot (263)](https://github.com/deva2025/Tourtrek/assets/166497101/68472035-e795-459c-868d-d320e86809c9)
+
+ ![Screenshot (264)](https://github.com/deva2025/Tourtrek/assets/166497101/111c03c6-6723-4863-b564-73f2a61d4f19)
 
 
 
