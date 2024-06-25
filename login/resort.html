@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Resorts Finder</title>
+<link rel="stylesheet" href="resort.css">
+</head>
+<body>
+<div class="container">
+    <h2>Select a Tourist Place:</h2>
+    <select id="places">
+        <option value="">Search</option>
+        <option value="Ooty">Ooty</option>
+        <option value="Kodaikanal">Kodaikanal</option>
+        <option value="Kanniyakumari">Kanniyakumari</option>
+        <option value="Yercaud">Yercaud</option>
+        <option value="Coonoor">Coonoor</option>
+        <option value="Rameswaram">Rameswaram</option>
+    </select>
+
+    <button onclick="getResorts()">Show Resorts</button>
+
+    <div class="resorts-container">
+        <div id="resortsList"></div>
+        <div id="resortDetails">
+            <h3 id="resortName"></h3>
+            <img id="resortImage" src="image/pexels-pixabay-38238.jpg" alt="Resort Image">
+            <p id="resortLocation"><b>ResortLocation</b></p>
+        </div>
+    </div>
+</div>
+
+<script src="resort.js"></script>
+</body>
+</html>

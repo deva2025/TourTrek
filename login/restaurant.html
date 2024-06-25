@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Restaurants Finder</title>
+<link rel="stylesheet" href="restaurant.css">
+</head>
+<body>
+<div class="container">
+    <h2>Select a Tourist Place:</h2>
+    <select id="places">
+        <option value="">Search</option>
+        <option value="Ooty">Ooty</option>
+        <option value="Kodaikanal">Kodaikanal</option>
+        <option value="Kanniyakumari">Kanniyakumari</option>
+        <option value="Yercaud">Yercaud</option>
+        <option value="Coonoor">Coonoor</option>
+        <option value="Rameswaram">Rameswaram</option>
+    </select>
+
+    <button onclick="getRestaurants()">Show Restaurants</button>
+
+    <div class="restaurants-container">
+        <div id="restaurantsList"></div>
+        <div id="restaurantDetails">
+            <h3 id="restaurantName"></h3>
+            <img id="restaurantImage" src="image/pexels-matheus-bertelli-17023021.jpg" alt="Restaurant Image">
+            <p id="restaurantLocation">Restaurant Location</p>
+        </div>
+    </div>
+</div>
+
+<script src="res.js"></script>
+</body>
+</html>

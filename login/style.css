@@ -1,0 +1,403 @@
+ 
+ nav{
+    margin:0;
+}
+h1,button{
+    display: inline;
+    
+}
+h1 span{
+    color: rgb(0, 157, 255);
+}
+
+h1{
+    color: rgb(0, 34, 255);
+    font-size:25px;
+}
+.a{
+    color: black;
+    font-size:12px;
+    text-decoration: none;
+    display: inline;
+    padding-left: 30px;
+}
+.a:hover{
+    color: rgb(60, 0, 255);
+    cursor: pointer;
+}
+.log{
+    border-color:rgb(38, 0, 255) ;
+    border-width: 2px;
+    border-style: solid;
+    color: rgb(85, 0, 255);
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-left: 45px;
+    text-decoration: none;
+
+}
+.log:hover{
+    color:black;
+    cursor: pointer;
+}
+.search-box {
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  #search-bar {
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  #search-button {
+    padding: 5px 10px;
+    font-size: 16px;
+    border: none;
+    background-color: #ff4757;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-left: 5px;
+  }
+.ab{
+    color: #162938;
+    font-size:18px;
+
+}
+body{
+        
+        background-color: #cccccc;
+        height: 500px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+      
+}
+.wrapper{
+    position: relative;
+    width: 400px;
+    height: 440px;
+    background:transparent ;
+    border: 2px solid rgba(255,255,255,0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 30px rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    margin-left: 550px;
+    background-color: grey ;
+    background-image: url("C:\Users\devad\OneDrive\Desktop\login register\images\travel.jpg");
+}
+.wrapper.form-box{
+    width: 100%;
+    padding: 40px;
+}
+
+.reg{
+    padding-top: 25px;
+}
+
+
+.icon-close{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 45px;
+    height: 45px;
+    background: #162938;
+    font-size: 2em;
+    color:#fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 20px;
+    cursor: pointer;
+    z-index: 1;
+    
+}
+.form-box h2{
+    font-size: 2em;
+    color: #162938;
+    text-align: center;
+}
+.input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    border-bottom: 2px solid #162938;
+    margin: 30px 0;
+}
+.input-box label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 1em;
+    color: #162938;
+    font-weight: 500;
+    pointer-events: none;
+    
+}
+.input-box input:focus~label,
+.input-box input:valid~label{
+    top:-5px;
+}
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    color: #162938;
+    font-weight: 600;
+    padding: 0 35px 0 5px;
+}
+ .input-box .icon{
+    position: absolute;
+    right: 8px;
+    font-size: 1.2em;
+    color: #162938;
+    line-height: 57px;
+
+ }
+ .remember-forgot{
+    font-size: -9em;
+    color: #162938;
+    font-weight: 500;
+    margin: -15px 0 15px;
+    display: flex;
+    justify-content: space-between;
+ }
+ .re{
+    accent-color: #162938;
+    margin-right: 3px;
+ }
+ .rm{
+    color: #162938;
+    text-decoration: none;
+    margin-left: 20px;
+ }
+ .rm:hover{
+    text-decoration: underline;
+ }
+.btn{
+    width: 100%;
+    height: 45px;
+    background-color: #162938;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1em;
+    color:#fff;
+    font-weight: 500;
+    margin-top: 15px;
+}
+.close{
+    color: #fff;
+}
+.login-register{
+    font-size: -9em;
+    color: #162938;
+    text-align: center;
+    font-weight: 500;
+    margin: 25px 0 10px;
+    margin-bottom: 50px;
+}
+.register-link{
+    color: #162938;
+    text-decoration: none;
+    font-weight: 600;
+}
+.login-link{
+    color: #162938;
+    text-decoration: none;
+    font-weight: 600;
+}
+.register-link:hover{
+    text-decoration: underline;
+}
+    
+
+img{
+    display: inline;
+}
+.sameline{
+    display: inline;
+}
+.place{
+    display: inline-block;
+    padding-left: 30px;
+
+}
+.pic{
+    overflow: hidden;
+  }
+  .pic:hover img{
+  transform: scale(1.5);
+  }
+.image{
+    transition: 0.4s;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+.box{
+    
+    background-color: #fff;
+    padding: 5px;
+    box-shadow: 0 1px 4px rgba(40, 37, 37, 0.1);
+    border-radius: 3px;
+    height: 180px;
+    width: 200px;
+    margin-top: 10px;
+    margin-left: 2px;
+}
+.para{
+    font-size: 8px;
+    font-weight: 500;
+    font-family: sans-serif;
+    align-items: center;
+    padding-left: 5px;
+}
+.book{
+    
+    background-color:#2f3542;
+    color:#fff;
+    border: none;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    margin-left: 55px; 
+    margin-top: 8px;  
+  
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+/* Hero section styles */
+#hero {
+    background-image: url('south-india-tour.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+   /* padding: 100px 0;*/
+}
+
+.hero-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.hero-content h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #162938;
+}
+
+.hero-content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #162938;
+}
+
+
+.btn {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #555;
+}
+
+/* Destination section styles */
+#destinations {
+    margin-top: 50px;
+}
+
+.destination-gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.destination {
+    width: 300px;
+    margin-bottom: 15px;
+  
+}
+
+.destination-info {
+    background-color: #fff;
+    padding :10px;
+    border-radius: 15px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.destination-info h3 {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.destination-info p {
+    font-size: 15px;
+    margin-bottom: 0;
+}
+
+/* Contact section styles */
+#contact {
+    margin-top: 50px;
+    text-align: center;
+    color: black;
+    
+}
+
+/* Footer styles */
+footer {
+    background-color:#555;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+.ac{
+    font-size: 20px;
+}
+.ab{
+    font-size: 15px; 
+    text-align: left;
+}
+.tour{
+    margin-top: 2px;
+}
+.tourist{
+    font-size: 15px;
+    margin-top:20px;
+}
