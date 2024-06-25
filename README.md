@@ -19,6 +19,10 @@ Travel isn't just about reaching destinations,it's about collecting memories fro
     
 ## Features
 
+
+![Screenshot (258)](https://github.com/deva2025/Tourtrek/assets/166497101/a3112ca0-82cd-4621-804b-14a9e6c604dc)
+
+
 - Facilitating travel bookings for tourist destinations.
 - The resort's location and images of that place.
 - The restaurant's location and images of that place.
