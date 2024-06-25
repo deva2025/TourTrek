@@ -3,6 +3,7 @@
 
 Travel isn't just about reaching destinations,it's about collecting memories from every corner of the world.This Website is a comprehensive travel platform designed to connect users with the best resorts, restaurants, and travel experiences worldwide. Our goal is to make travel planning easy, enjoyable, and efficient by providing detailed information, images, and reviews of top destinations.
 
+![Screenshot (257)](https://github.com/deva2025/Tourtrek/assets/166497101/4c342f0a-cc03-4912-977e-c2580b8e4eaf)
 
 ## Technology stack
 - HTML
